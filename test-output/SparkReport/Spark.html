@@ -1,0 +1,1024 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 16, 2023 08:36:22 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Book Online page feature</p>
+            <p class="text-sm">
+              <span>20:36:22</span> / <span>00:01:35:009</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Book Online page feature</h5>
+<span class='badge badge-success'>07.16.2023 20:36:22</span>
+<span class='badge badge-danger'>07.16.2023 20:37:57</span>
+<span class='badge badge-default'>00:01:35:009</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> AS a user I should see Book Online page feature</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User should not see the Please select your departure date text after the date selection</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userEntersOnSearchBar(java.lang.String)">
+                <span>And User enters "India" on search bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.listOfTourIsDisplayed(java.lang.String)">
+                <span>When list of "India" tour is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userShouldSelectFirstOptionIndiaFromTheList()">
+                <span>Then User should select first option India from the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.navigatedOnTourPage(java.lang.String)">
+                <span>And Navigated on "India" Tour page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.textIsDisplayedBeforeSelectingDate(java.lang.String)">
+                <span>Given "Please select your departure date" text is displayed before selecting date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.user_select_next_available_date()">
+                <span>When User select next available date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.textShouldNotBeDisplayed(java.lang.String)">
+                <span>Then "Please select your departure date" text" should not be displayed.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Book next available tour</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userEntersOnSearchBar(java.lang.String)">
+                <span>And User enters "India" on search bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.listOfTourIsDisplayed(java.lang.String)">
+                <span>When list of "India" tour is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userShouldSelectFirstOptionIndiaFromTheList()">
+                <span>Then User should select first option India from the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.navigatedOnTourPage(java.lang.String)">
+                <span>And Navigated on "India" Tour page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.user_select_next_available_date()">
+                <span>Given User select next available date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.selectTheAdultsAndValidateThePrice(int)">
+                <span>And select the 2 adults and validate the price</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.makeANoteOfDepartureSelection()">
+                <span>And make a note of departure selection</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.userClickOnBookOnlineButton()">
+                <span>When user click on Book Online button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.BookOnlineDef.tourBookingDetailsPageShouldBeDisplayed()">
+                <span>Then tour booking details page should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Passenger and tour details page feature</p>
+            <p class="text-sm">
+              <span>20:36:22</span> / <span>00:03:11:991</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Passenger and tour details page feature</h5>
+<span class='badge badge-success'>07.16.2023 20:36:22</span>
+<span class='badge badge-danger'>07.16.2023 20:39:34</span>
+<span class='badge badge-default'>00:03:11:991</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As a user I a should see Passenger and tour details page feature</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Validate Date, Department and Passengers details</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userEntersOnSearchBar(java.lang.String)">
+                <span>And User enters "India" on search bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.listOfTourIsDisplayed(java.lang.String)">
+                <span>When list of "India" tour is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userShouldSelectFirstOptionIndiaFromTheList()">
+                <span>Then User should select first option India from the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.navigatedOnTourPage(java.lang.String)">
+                <span>And Navigated on "India" Tour page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userBookATourForAdultsByClickingBookOnlineButton(int)">
+                <span>Given User book a tour for 2 adults by clicking book online button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userClickOnDateDeparturePassengerSection()">
+                <span>When User click on Date, Departure & Passenger section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.PassengerAndTourDetailsDef.populatedDetailsInDateDeparturePassengerSectionAreValid()">
+                <span>Then Populated details in Date, Departure & Passenger section are valid</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>Select Accommodation details</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userEntersOnSearchBar(java.lang.String)">
+                <span>And User enters "India" on search bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.listOfTourIsDisplayed(java.lang.String)">
+                <span>When list of "India" tour is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userShouldSelectFirstOptionIndiaFromTheList()">
+                <span>Then User should select first option India from the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.navigatedOnTourPage(java.lang.String)">
+                <span>And Navigated on "India" Tour page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userBookATourForAdultsByClickingBookOnlineButton(int)">
+                <span>Given User book a tour for 2 adults by clicking book online button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userIsInAccommodationSection()">
+                <span>And User is in Accommodation section.</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: room-1837299-numselect (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PATILSA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62198/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f0f520c8b3f9e5ee47bb2776e1af3f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.mailtravel.util.ElementUtil.waitElementToBeVisible(ElementUtil.java:56)
+	at org.mailtravel.util.ElementUtil.isDisplayed(ElementUtil.java:90)
+	at org.mailtravel.pages.PassengerAndTourDetailsPage.roomRequiredIsDisplayed(PassengerAndTourDetailsPage.java:81)
+	at testcaseparallel.PassengerAndTourDetailsDef.userIsInAccommodationSection(PassengerAndTourDetailsDef.java:47)
+	at ✽.User is in Accommodation section.(file:///C:/Users/PATILSA/MayuraProject/MailTravel/src/test/resources/testcaseparallel/passengerandtourdetails.feature:19)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.selectNumberRequiredAsForTwinRoom(int)">
+                <span>And select number required as 1 for Twin room</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userClickOnButton(java.lang.String)">
+                <span>When User click on "Select Your Room And Continue" button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userShouldNavigateOnExtraSection()">
+                <span>Then User should navigate on Extra section</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>testcaseparallel.AppHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Select_Accommodation_details
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="20"><span class="badge log fail-bg mr-2">Fail</span>Fill Passenger details</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userEntersOnSearchBar(java.lang.String)">
+                <span>And User enters "India" on search bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.listOfTourIsDisplayed(java.lang.String)">
+                <span>When list of "India" tour is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userShouldSelectFirstOptionIndiaFromTheList()">
+                <span>Then User should select first option India from the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.navigatedOnTourPage(java.lang.String)">
+                <span>And Navigated on "India" Tour page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userBookATourForAdultsByClickingBookOnlineButton(int)">
+                <span>Given User book a tour for 2 adults by clicking book online button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userSelectAccommodationAsForTwinRoom(int)">
+                <span>And User select accommodation as 1 for Twin room</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: room-1837299-numselect (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PATILSA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62163/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71a25e7c4d822ca097aeab4a85f0c9aa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.mailtravel.util.ElementUtil.waitElementToBeVisible(ElementUtil.java:56)
+	at org.mailtravel.pages.PassengerAndTourDetailsPage.roomSelected(PassengerAndTourDetailsPage.java:89)
+	at testcaseparallel.PassengerAndTourDetailsDef.userSelectAccommodationAsForTwinRoom(PassengerAndTourDetailsDef.java:115)
+	at ✽.User select accommodation as 1 for Twin room(file:///C:/Users/PATILSA/MayuraProject/MailTravel/src/test/resources/testcaseparallel/passengerandtourdetails.feature:27)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userIsOnPassengerDetailsSection()">
+                <span>And User is on Passenger details section</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userFillPassengerDetails(io.cucumber.datatable.DataTable)">
+                <span>And User fill passenger details</span>
+      <div><table class='markup-table table '><tr><td>adult1Title</td><td>adult1FirstName</td><td>adult1LastName</td><td>adult1BirthDay</td><td>adult1BirthMonth</td><td>adult1BirthYear</td><td>adult2Title</td><td>adult2FirstName</td><td>adult2LastName</td><td>adult2BirthDay</td><td>adult2BirthMonth</td><td>adult2BirthYear</td></tr><tr><td>Mr</td><td>John</td><td>Taylor</td><td>3</td><td>March</td><td>1991</td><td>Mrs</td><td>Annie</td><td>Taylor</td><td>12</td><td>June</td><td>1992</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userFillLeadContactDetails(io.cucumber.datatable.DataTable)">
+                <span>And User fill Lead Contact Details</span>
+      <div><table class='markup-table table '><tr><td>mobilePhoneNumber</td><td>emailAddress</td><td>AddressLine1</td><td>AddressLine2</td><td>city</td><td>postCode</td><td>country</td><td>hearAboutUs</td></tr><tr><td>07712345699</td><td>abc@gmail.com</td><td>2 RockeBy Close</td><td>Park Road</td><td>Bristol</td><td>RG122NA</td><td>United Kingdom</td><td>Email</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userClicksOnContinueButton()">
+                <span>When User clicks on continue button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userShouldNavigatedOnConfirmDetailsPage()">
+                <span>Then User is navigated on Confirm Details page.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>testcaseparallel.AppHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Fill_Passenger_details
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded3.png' src="../embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Search page feature</p>
+            <p class="text-sm">
+              <span>20:36:22</span> / <span>00:01:35:041</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Search page feature</h5>
+<span class='badge badge-success'>07.16.2023 20:36:22</span>
+<span class='badge badge-danger'>07.16.2023 20:37:58</span>
+<span class='badge badge-default'>00:01:35:041</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As a user I should see Search page feature</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Search functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userEntersOnSearchBar(java.lang.String)">
+                <span>Given User enters "India" on search bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.listOfTourIsDisplayed(java.lang.String)">
+                <span>When list of "India" tour is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userShouldSelectFirstOptionIndiaFromTheList()">
+                <span>Then User should select first option India from the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.navigatedOnTourPage(java.lang.String)">
+                <span>And Navigated on "India" Tour page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userClicksOnBookOnlineButton()">
+                <span>And User clicks on Book Online button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify confirm details page</p>
+            <p class="text-sm">
+              <span>20:36:22</span> / <span>00:03:08:888</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify confirm details page</h5>
+<span class='badge badge-success'>07.16.2023 20:36:22</span>
+<span class='badge badge-danger'>07.16.2023 20:39:31</span>
+<span class='badge badge-default'>00:03:08:888</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As a user I should see Verify confirm details page</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log fail-bg mr-2">Fail</span>Verify the Confirm Details+BookPage and Verify the Book Now button is enabled</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userEntersOnSearchBar(java.lang.String)">
+                <span>And User enters "India" on search bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.listOfTourIsDisplayed(java.lang.String)">
+                <span>When list of "India" tour is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.userShouldSelectFirstOptionIndiaFromTheList()">
+                <span>Then User should select first option India from the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.SearchDef.navigatedOnTourPage(java.lang.String)">
+                <span>And Navigated on "India" Tour page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userBookATourForAdultsByClickingBookOnlineButton(int)">
+                <span>Given User book a tour for 2 adults by clicking book online button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userSelectAccommodationAsForTwinRoom(int)">
+                <span>And User select accommodation as 1 for Twin room</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: room-1837299-numselect (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PATILSA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62182/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28a1ff26875747f52409aac601c322f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.mailtravel.util.ElementUtil.waitElementToBeVisible(ElementUtil.java:56)
+	at org.mailtravel.pages.PassengerAndTourDetailsPage.roomSelected(PassengerAndTourDetailsPage.java:89)
+	at testcaseparallel.PassengerAndTourDetailsDef.userSelectAccommodationAsForTwinRoom(PassengerAndTourDetailsDef.java:115)
+	at ✽.User select accommodation as 1 for Twin room(file:///C:/Users/PATILSA/MayuraProject/MailTravel/src/test/resources/testcaseparallel/confirmdetails.feature:14)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userIsOnPassengerDetailsSection()">
+                <span>And User is on Passenger details section</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userFillPassengerDetails(io.cucumber.datatable.DataTable)">
+                <span>And User fill passenger details</span>
+      <div><table class='markup-table table '><tr><td>adult1Title</td><td>adult1FirstName</td><td>adult1LastName</td><td>adult1BirthDay</td><td>adult1BirthMonth</td><td>adult1BirthYear</td><td>adult2Title</td><td>adult2FirstName</td><td>adult2LastName</td><td>adult2BirthDay</td><td>adult2BirthMonth</td><td>adult2BirthYear</td></tr><tr><td>Mr</td><td>John</td><td>Taylor</td><td>3</td><td>March</td><td>1991</td><td>Mrs</td><td>Annie</td><td>Taylor</td><td>12</td><td>June</td><td>1992</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userFillLeadContactDetails(io.cucumber.datatable.DataTable)">
+                <span>And User fill Lead Contact Details</span>
+      <div><table class='markup-table table '><tr><td>mobilePhoneNumber</td><td>emailAddress</td><td>AddressLine1</td><td>AddressLine2</td><td>city</td><td>postCode</td><td>country</td><td>hearAboutUs</td></tr><tr><td>07712345699</td><td>abc@gmail.com</td><td>2 RockeBy Close</td><td>Park Road</td><td>Bristol</td><td>RG122NA</td><td>United Kingdom</td><td>Email</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userClicksOnContinueButton()">
+                <span>And User clicks on continue button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.PassengerAndTourDetailsDef.userShouldNavigatedOnConfirmDetailsPage()">
+                <span>When User is navigated on Confirm Details page.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.ConfirmDetailsDef.textIsAppear(java.lang.String)">
+                <span>Then "Confirm Details + Book" text is appear</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="testcaseparallel.ConfirmDetailsDef.bookNowButtonIsEnabled()">
+                <span>And Book Now button is enabled</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>testcaseparallel.AppHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Verify_the_Confirm_Details+BookPage_and_Verify_the_Book_Now_button_is_enabled
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded2.png' src="../embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Home page feature</p>
+            <p class="text-sm">
+              <span>20:36:22</span> / <span>00:00:49:304</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home page feature</h5>
+<span class='badge badge-success'>07.16.2023 20:36:22</span>
+<span class='badge badge-danger'>07.16.2023 20:37:12</span>
+<span class='badge badge-default'>00:00:49:304</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As a user I should see Home page feature</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Display home page title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userIsOnHomePage()">
+                <span>Given User is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.user_gets_title_of_the_page()">
+                <span>When user gets title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.page_title_should_be(java.lang.String)">
+                <span>Then page title should be "Home Page | Mail Travel"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="testcaseparallel.HomePageDef.userClicksOnAcceptAllCookiesButton()">
+                <span>And user clicks on Accept All Cookies button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='94'>And User is in Accommodation section.</a>
+<div class="">
+<span class="badge badge-default">Passenger and tour details page feature.Select Accommodation details.And User is in Accommodation section.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='95'>And User select accommodation as 1 for Twin room</a>
+<div class="">
+<span class="badge badge-default">Verify confirm details page.Verify the Confirm Details+BookPage and Verify the Book Now button is enabled.And User select accommodation as 1 for Twin room</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='99'>And User select accommodation as 1 for Twin room</a>
+<div class="">
+<span class="badge badge-default">Passenger and tour details page feature.Fill Passenger details.And User select accommodation as 1 for Twin room</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 16, 2023 08:36:22 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 16, 2023 08:39:34 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='60%'>
+<b>3</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='40%'><b>2</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='62%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='37%'><b>3</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='78%'><b>64</b> steps passed</small></div>
+<div>
+<small data-tooltip='3%'><b>3</b> steps failed,
+<b>15</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Book Online page feature":95.009,"Passenger and tour details page feature":191.991,"Search page feature":95.041,"Verify confirm details page":188.888,"Home page feature":49.304
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 3,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 64,
+failGrandChild: 3,
+warningGrandChild: 0,
+skipGrandChild: 15,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
